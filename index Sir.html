@@ -60,7 +60,7 @@
                 <li><a href="#">Contact</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li><a href="Login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             </ul>
         </div>
     </div>
@@ -75,28 +75,54 @@
             <p>副教授</p>
         </div>
         <div class="container">
-            <h2>Welcome</h2>
+            <h2>Dynamic Tabs</h2>
             <ul class="nav nav-tabs">
-                <li class="active"><a data-toggle="tab" href="#學歷">學歷</a></li>
-                <li><a data-toggle="tab" href="#經歷">經歷</a></li>
-                <li><a data-toggle="tab" href="#教學">教學</a></li>
+                <li class="active"><a data-toggle="tab" href="#home">學歷</a></li>
+                <li><a data-toggle="tab" href="#menu1">經歷</a></li>
+                <li><a data-toggle="tab" href="#menu2">教學</a></li>
+                <div class="tab-content">
+                    <div id="home" class="tab-pane fade in active">
+                        <h3 align="center">學歷</h3>
+                        <p>沙鹿國小 (1972.9-1978.6)</p>
+                        <p>沙鹿國中 (1978.9-1981.6)</p>
+                        <p>台中一中 (1981.9-1984.6)</p>
+                        <p>大同工學院資訊工程系 (1985.9-1989.6)</p>
+                        <p>中正大學資訊工程所 碩士(1991.9-1993.6)</p>
+                        <p>中正大學資訊工程所 博士(1993.9-2002.6)</p>
+                    </div>
+                </div>
+                <div class="tab-content">
+                    <div id="menu1" class="tab-pane fade">
+                        <h3>Menu 1</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="tab-content">
+                    <div id="menu2" class="tab-pane fade">
+                        <h3>Menu 2</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                    </div>
+                </div>
+                <div class="tab-content">
+                    <div id="menu3" class="tab-pane fade">
+                        <h3>Menu 3</h3>
+                        <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    </div>
+                </div>
             </ul>
-            <div class="tab-content">
-                <div id="學歷" class="tab-pane fade in active">
-                    <h3>HOME</h3>
-                </div>
-                <div id="menu1" class="tab-pane fade">
-                    <h3>Menu 1</h3>
-                    <p></p>
-                </div>
-                <div id="menu2" class="tab-pane fade">
-                    <h3>Menu 2</h3>
-                    <p></p>
-                </div>
-                <div id="menu3" class="tab-pane fade">
-                    <h3>Menu 3</h3>
-                    <p></p>
-                </div>
+            <!--<div class="tab-content">-->
+                <!--<div id="menu1" class="tab-pane fade">-->
+                    <!--<h3>Menu 1</h3>-->
+                    <!--<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
+                <!--</div>-->
+                <!--<div id="menu2" class="tab-pane fade">-->
+                    <!--<h3>Menu 2</h3>-->
+                    <!--<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>-->
+                <!--</div>-->
+                <!--<div id="menu3" class="tab-pane fade">-->
+                    <!--<h3>Menu 3</h3>-->
+                    <!--<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>-->
+                <!--</div>-->
             </div>
         </div>
     </div>
